@@ -82,7 +82,7 @@ if( ! WPF()->usergroup->can( 'mth' ) ) exit;
 							}
 						} else {
 							?>
-                            <div class="wpf-layout-info"><p style="text-align:center;"><? _e( 'No layout found', 'wpforo' ); ?></p></div><?php
+                            <div class="wpf-layout-info"><p style="text-align:center;"><?php _e( 'No layout found', 'wpforo' ); ?></p></div><?php
 						}
 						?>
                     </div>
